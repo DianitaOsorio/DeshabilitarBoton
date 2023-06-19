@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-context",
+    "version": "5.3.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.2",
+      "buildId": "bveza4zlrreyxjgjup623k2yw4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-aop",
+          "version": {
+            "requires": "5.3.4"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.4"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.4"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-expression",
+          "version": {
+            "requires": "5.3.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-context-5.3.4.jar",
+          "url": "spring-context-5.3.4.jar",
+          "size": 1245004,
+          "sha512": "0818e3ccbcb2a9e966541b0a03c100406193bfaad434355312fa72412244bb23a9a5afc2cc088a75f41ca67bcb7113e08fcb5c34c8c151866db29f986610f2c3",
+          "sha256": "fce9900e89b5b93bdb945d9c459e1f6f6447f42fa63977ab68f1560c6e357a20",
+          "sha1": "fbeadeb0e4d272599a938ec345e99e5f9a76e919",
+          "md5": "23d457a96e013a98ffd8364c3db8c28a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-aop",
+          "version": {
+            "requires": "5.3.4"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.4"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.4"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-expression",
+          "version": {
+            "requires": "5.3.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-context-5.3.4.jar",
+          "url": "spring-context-5.3.4.jar",
+          "size": 1245004,
+          "sha512": "0818e3ccbcb2a9e966541b0a03c100406193bfaad434355312fa72412244bb23a9a5afc2cc088a75f41ca67bcb7113e08fcb5c34c8c151866db29f986610f2c3",
+          "sha256": "fce9900e89b5b93bdb945d9c459e1f6f6447f42fa63977ab68f1560c6e357a20",
+          "sha1": "fbeadeb0e4d272599a938ec345e99e5f9a76e919",
+          "md5": "23d457a96e013a98ffd8364c3db8c28a"
+        }
+      ]
+    }
+  ]
+}

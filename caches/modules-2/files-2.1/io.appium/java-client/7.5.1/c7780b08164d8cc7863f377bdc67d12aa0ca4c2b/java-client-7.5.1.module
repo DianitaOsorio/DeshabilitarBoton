@@ -1,0 +1,248 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.appium",
+    "module": "java-client",
+    "version": "7.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "geoiih446jhhxij7mls32qhbv4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.seleniumhq.selenium",
+          "module": "selenium-java",
+          "version": {
+            "strictly": "3.141.59",
+            "requires": "3.141.59"
+          },
+          "excludes": [
+            {
+              "group": "com.google.code.gson",
+              "module": "*"
+            },
+            {
+              "group": "*",
+              "module": "htmlunit-driver"
+            },
+            {
+              "group": "net.sourceforge.htmlunit",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "java-client-7.5.1.jar",
+          "url": "java-client-7.5.1.jar",
+          "size": 391571,
+          "sha512": "b45b6819e18c987238edf68a90e8873b6992703078b9a2e54532800f6b92ada5115389593b97d4b5e709d99d1bd92502c03cf2972d7080ce1ff30d85055ffa1b",
+          "sha256": "39714983aa1a12436de0bbb535dc61452b81f8875c68ced359f0dd2217772fe4",
+          "sha1": "276abeb1ee8e777252f08356e5b5eaa808f39ad6",
+          "md5": "b31a10bc94bbab8e5f42baacf8c93b1c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.seleniumhq.selenium",
+          "module": "selenium-support",
+          "version": {
+            "strictly": "3.141.59",
+            "requires": "3.141.59"
+          }
+        },
+        {
+          "group": "org.seleniumhq.selenium",
+          "module": "selenium-api",
+          "version": {
+            "strictly": "3.141.59",
+            "requires": "3.141.59"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpclient",
+          "version": {
+            "requires": "4.5.13"
+          }
+        },
+        {
+          "group": "cglib",
+          "module": "cglib",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "commons-validator",
+          "module": "commons-validator",
+          "version": {
+            "requires": "1.7"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.12.0"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.8.0"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "5.3.4"
+          }
+        },
+        {
+          "group": "org.aspectj",
+          "module": "aspectjweaver",
+          "version": {
+            "requires": "1.9.6"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.30"
+          }
+        },
+        {
+          "group": "org.seleniumhq.selenium",
+          "module": "selenium-java",
+          "version": {
+            "strictly": "3.141.59",
+            "requires": "3.141.59"
+          },
+          "excludes": [
+            {
+              "group": "com.google.code.gson",
+              "module": "*"
+            },
+            {
+              "group": "*",
+              "module": "htmlunit-driver"
+            },
+            {
+              "group": "net.sourceforge.htmlunit",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "java-client-7.5.1.jar",
+          "url": "java-client-7.5.1.jar",
+          "size": 391571,
+          "sha512": "b45b6819e18c987238edf68a90e8873b6992703078b9a2e54532800f6b92ada5115389593b97d4b5e709d99d1bd92502c03cf2972d7080ce1ff30d85055ffa1b",
+          "sha256": "39714983aa1a12436de0bbb535dc61452b81f8875c68ced359f0dd2217772fe4",
+          "sha1": "276abeb1ee8e777252f08356e5b5eaa808f39ad6",
+          "md5": "b31a10bc94bbab8e5f42baacf8c93b1c"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "java-client-7.5.1-all.jar",
+          "url": "java-client-7.5.1-all.jar",
+          "size": 18514130,
+          "sha512": "b340acbbd2d9fc43a133c814470bd96b5c1a46b1fb57778c87040ba237e6a39412ccfa94b0b7d7e81451ec99bc4a3381a56835e6e15981b54870f474ec8398cf",
+          "sha256": "f9c2fe3b2ec27b21a200aec21b1f0fd0e2f7cdc7cdfd4dd8aa5be86591650667",
+          "sha1": "4f030761968d1e0a58d34d79bba6e2defb9a8a39",
+          "md5": "b4ca4d124c9e752065da39448ac6fea4"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "java-client-7.5.1-javadoc.jar",
+          "url": "java-client-7.5.1-javadoc.jar",
+          "size": 1090856,
+          "sha512": "6c032b3b1b1215157db3a53174740b53b3f5d2620cc3e130996377646306c752d5a8912380c423d4530faf8b80534e9fb657525fb34bd3056df5fcb345da5bdf",
+          "sha256": "b588caea6f66a6d6132895e7f2081541242f21fa662c1da3ce6ed58347beea02",
+          "sha1": "19a8990f224532cb6ecd3ba023f916f4526331c7",
+          "md5": "0562cd636c7b241032eed9a51113f593"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "java-client-7.5.1-sources.jar",
+          "url": "java-client-7.5.1-sources.jar",
+          "size": 342047,
+          "sha512": "890f8d66f9a7b823449118dff3cf9ae63858785005d984e773ae1c9868cb27c7b8db727f78a3a36b1b01cea2d1a4b61e99277f74207facbc225ed4e3e3b42577",
+          "sha256": "dac70b53967b98443068ab3a868dcc23d82149c851bfa599c1409a87cfa50a39",
+          "sha1": "1659e219e681c592479e65e3a1fd0df2c643ffb7",
+          "md5": "29dab9910dfcc33bcc5245a568145616"
+        }
+      ]
+    }
+  ]
+}

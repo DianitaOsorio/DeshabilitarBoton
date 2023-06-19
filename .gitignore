@@ -1,0 +1,60 @@
+# Gradle files
+.gradle/
+build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Ignore IntelliJ files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Ignore Gradle distributions in the wrapper directory
+wrapper/dists/
+
+# Serenity report files
+target/
+serenity-reports/
+
+# Mac files
+.DS_Store
+
+# Ignore other unnecessary files
+*.log
+*.bak
+*.swp
+*.back
+*.bak
+*.orig
+*.old
+.old.
+*.tmp
+*.temp
+*.o
+*.obj
+*.so
+*.dll
+*.class
+*.jar
+*.war
+*.ear
+*.tlog
+*.manifest
+*.bak
+*.sw?
+*.rej
+*~
+*.bak
+.~
+.~
+.~
+*~ 
+*.~ 
+~.
+.bak.
+*.bak
