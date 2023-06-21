@@ -2,7 +2,7 @@ package testing.movistar.userinterfaces;
 
 import net.serenitybdd.screenplay.targets.Target;
 
-public class BTerminosRedimir {
+public class ActivarBotonRedimir {
     public static final Target LST_LINEAS = Target.the("lista desplegable con las lineas a usar")
             .locatedBy("//android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.TextView");
     public static final Target BTN_LINEA_SEL = Target.the("linea a seleccionar")

@@ -35,7 +35,7 @@ public class VerMisPrivilegiosStepDefinitions {
 
     @Entonces("^lo debe direccionar al sitio de privilegios$")
     public void loDebeDireccionarAlSitioDePrivilegios() {
-        String expectedLBL_VALIDAR_TEXTO ="Tus privilegios2 de 7";
+        String expectedLBL_VALIDAR_TEXTO ="Tus privilegios7 de 7";
         OnStage.theActorInTheSpotlight().should(seeThat(" validar texto", ValidarTextoPrivilegios.value(),equalTo(expectedLBL_VALIDAR_TEXTO)));
 
     }

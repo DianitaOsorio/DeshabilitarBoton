@@ -10,9 +10,9 @@ import testing.movistar.interactions.ScrollDown;
 import testing.movistar.interactions.ScrollUp;
 
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
-import static testing.movistar.userinterfaces.BTerminosRedimir.*;
+import static testing.movistar.userinterfaces.ValidarEsperaBoton.*;
 
-public class BTerminosRedimir implements Task {
+public class ValidarEsperaBoton implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
@@ -35,12 +35,19 @@ public class BTerminosRedimir implements Task {
                 Click.on(BTN_MARCAS_ALIADAS),
                 ExplicitWait.here(10),
                 Click.on(LBL_TIQUETE_IBERIA),
-                ExplicitWait.here(10));
+                ExplicitWait.here(10),
+                Click.on(BTN_ACEPTAR_TERMINOS),
+                ExplicitWait.here(15),
+                Click.on(BTN_ACEPTAR),
+                ExplicitWait.here(6)
+
+
+        );
 
     }
 
-    public static BTerminosRedimir socialMedia() {
-        return Instrumented.instanceOf(BTerminosRedimir.class).withProperties();
+    public static ValidarEsperaBoton socialMedia() {
+        return Instrumented.instanceOf(ValidarEsperaBoton.class).withProperties();
     }
 
 }
